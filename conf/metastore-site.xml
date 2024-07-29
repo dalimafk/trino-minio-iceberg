@@ -1,7 +1,7 @@
 <configuration>
     <property>
         <name>metastore.thrift.uris</name>
-        <value>thrift://hive-metastore:9083</value>
+        <value>thrift://hive-metastore:9087</value>
         <description>Thrift URI for the remote metastore. Used by metastore client to connect to remote metastore.</description>
     </property>
     <property>
@@ -19,7 +19,7 @@
 
     <property>
         <name>javax.jdo.option.ConnectionURL</name>
-        <value>jdbc:mysql://mariadb:3306/metastore_db</value>
+        <value>jdbc:mysql://mariadb:3307/metastore_db</value>
     </property>
 
     <property>
@@ -42,7 +42,7 @@
     </property>
     <property>
         <name>fs.s3a.endpoint</name>
-        <value>http://minio:9000</value>
+        <value>http://minio:9080</value>
     </property>
     <property>
         <name>fs.s3a.path.style.access</name>
